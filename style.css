@@ -1,5 +1,7 @@
 
 * {
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 a {
@@ -13,4 +15,32 @@ a {
 img {
     width: 100px;
     height: 100px;
+}
+.navbar {
+    background-color: #E6E6E6;
+}
+.navbar .logo {
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+}
+.navigation :not(.navbutton):hover{
+    border-bottom: solid black;
+}
+.navbutton {
+    width: 105px;
+    height: 33px;
+    color: white;
+    background: #68AEFF;
+    padding: 6px 40px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.253);
+}
+.navbutton:hover {
+    background-color: #127ee4ad;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
