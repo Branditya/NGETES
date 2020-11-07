@@ -12,7 +12,7 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
-img {
+.logo img {
     width: 100px;
     height: 100px;
 }
@@ -60,26 +60,26 @@ nav.navbar .navigation a:not(:last-child) {
 /* End of Navbar */
 
 /* Start Beranda */
-.beranda1 {
+.beranda {
     width: 100%;
-    height: 649px;
+    height: 700px;
     background-image: linear-gradient(to right, rgba(104,174,255,1), rgba(196,196,196,0)), url(GAMBAR/Cover\ jamur.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.beranda1 img {
+.beranda img {
     height: 382px;
     width: 468px;
     border-radius: 20px 0;
     border: solid black;
 }
-.beranda1 .teks {
+.beranda .teks {
     display: flex;
     flex-direction: column;
 }
-.beranda1 a {
+.beranda a {
     padding: 6px 40px;
     border-radius: 15px;
     color: white;
@@ -87,6 +87,36 @@ nav.navbar .navigation a:not(:last-child) {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.253);
     margin: auto;
 }
-.beranda1 a:hover {
+.beranda a:hover {
     background-color: #127ee4ad;
+}
+.tentang {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.60), rgba(255, 255, 255, 0.60)), url(GAMBAR/Cover\ jamur.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tentang .gambar img {
+    width: 500px;
+    height: 400px;
+}
+.tentang .logo {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.tentang .teks {
+    display: flex;
+    flex-direction: column;
+}
+.tentang p{
+    font-size: 24px;
+    text-align: justify;
+    width: 516px;
+    margin-bottom: 20px;
 }
