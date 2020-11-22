@@ -15,4 +15,6 @@ function terimainput() {
     cell2.innerHTML = b;
     cell3.innerHTML = c;
     cell4.innerHTML = d;
+
+    alert("Data berhasil di entry")
 }
